@@ -1,0 +1,51 @@
+########################
+#    Single File       #
+########################
+snippet vsc "Vue Single-file Component Basic"
+<template>
+</template>
+
+<script>
+export default {
+	name: '$1',
+
+	data() {
+		return {
+		};
+	},
+
+	methods: {
+	},
+};
+</script>
+
+<style lang="scss" scoped>
+</style>
+endsnippet
+
+########################
+#    With Vuex         #
+########################
+snippet vscx "Vue Single-file Component with Vuex"
+<template>
+</template>
+
+<script>
+import { mapGetters } from 'vuex';
+
+export default {
+	name: '$1',
+
+	data() {
+		return {
+		};
+	},
+
+	methods: {
+	},
+};
+</script>
+
+<style lang="scss" scoped>
+</style>
+endsnippet
