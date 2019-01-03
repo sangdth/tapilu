@@ -50,42 +50,4 @@ export default {
 </style>
 endsnippet
 
-########################
-#    Store module      #
-########################
-snippet vs:module "Vuex module template"
-import api from '@/common/api.services';
-import {
-    $1,
-} from '@/store/type';
 
-const state = {
-    $2: '',
-};
-
-const getters = {
-    $2: state => state.$2,
-};
-
-const actions = {
-    async [$1]({ commit, dispatch }, data) {
-        try {} catch (error) {
-            throw error;
-        }
-    },
-};
-
-const mutations = {
-    [$1](state, data) {
-        state.$2 = data;
-    },
-};
-
-export default {
-    namespaced: true,
-    getters,
-    state,
-    actions,
-    mutations,
-};
-endsnippet
