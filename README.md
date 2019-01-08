@@ -1,6 +1,6 @@
-# Vue Snippets for Vim
+# Tapilu (打邊爐) Snippets
 
-A Vim snippet library for Vue.
+A mixed snippets of everything, just for me.
 
 Requires [UltiSnips](https://github.com/SirVer/ultisnips).
 
@@ -10,7 +10,7 @@ Using [Vundle](https://github.com/VundleVim/Vundle.vim):
 
 ```vim
 " Vim Vue Snippets
-Plugin 'sangdth/vim-vue-snippets'
+Plugin 'sangdth/tapilu-snippets'
 
 " Ultisnips (required)
 Plugin 'SirVer/ultisnips'
