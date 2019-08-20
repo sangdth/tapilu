@@ -1,0 +1,25 @@
+snippet rfc "React Functional Component" b
+import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './style.scss';
+
+const ${1:`!v expand('%:t:r')`} = ({ $3 }) => {
+	return (
+		<${5:div} className={styles.base}>
+			$0
+		</$5>
+	);
+}
+
+$1.propTypes = {`!p
+props = t[3]
+
+if props:
+  snip >> 1
+  for prop in props.split(', '):
+    snip += prop + ': PropTypes.any,'
+`
+};
+$1.defaultProps = {$4};
+export default $1;
+endsnippet
