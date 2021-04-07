@@ -1,4 +1,4 @@
-# Tapilu (打邊爐) Snippets
+# Tapilu (打邊爐)
 
 A mixed snippets of everything, just for me.
 
